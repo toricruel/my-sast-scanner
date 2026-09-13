@@ -1,0 +1,5 @@
+rules:
+  - id: "SEC-001"
+    name: "Arbitrary Code Execution"
+    functions: ["eval", "exec"]
+    severity: "CRITICAL"
